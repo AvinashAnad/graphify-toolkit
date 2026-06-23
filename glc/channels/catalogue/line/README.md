@@ -24,6 +24,27 @@ Developer trial: 500 free push messages/month; reply messages within the 1-hour 
 
 Reply tokens are one-shot and expire fast — push messages cost against the monthly quota. Signed webhook validation uses the channel secret.
 
+## Group 10 architecture note
+
+This adapter translates LINE webhook `message` events into the canonical
+`ChannelMessage` envelope and translates `ChannelReply` back to LINE text
+message payloads. Inbound messages are parsed with LINE-specific Pydantic
+schemas, classified through `glc.security.trust_level.classify()`, and
+annotated with metadata for public-channel allowlist checks.
+
+The main LINE quirk is the `replyToken`: it is one-shot, short-lived, and
+should be preferred over push messages because push counts against the free
+monthly quota. The adapter stores the token on inbound events, sends the
+first outbound reply through the reply endpoint payload
+`{replyToken, messages}`, and falls back to push payloads `{to, messages}`
+when no token is available.
+
+The tests exercise both translation directions and the trust boundary:
+owner and stranger webhooks produce the expected trust levels, public-channel
+stranger input records the allowlist decision, rate-limit responses propagate
+as 429s, and the LINE-specific smoke test proves reply-token-first then push
+fallback behavior against `tests/channels/mocks/line_mock.py`.
+
 ## Tests you need to pass
 
 The failing tests live at `tests/channels/test_line.py`. They cover:
