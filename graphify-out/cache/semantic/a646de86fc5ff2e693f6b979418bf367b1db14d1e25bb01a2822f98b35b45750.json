@@ -1,0 +1,1 @@
+{"nodes": [{"id": "adapter_guide_md", "label": "Adapter Guide", "file_type": "document", "source_file": "docs/ADAPTER_GUIDE.md"}], "edges": [{"source": "adapter_guide_md", "target": "scripts_check_pr_boundaries", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/ADAPTER_GUIDE.md"}], "hyperedges": []}

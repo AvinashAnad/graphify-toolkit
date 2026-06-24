@@ -1,0 +1,942 @@
+{
+  "daemon/install.sh": {
+    "mtime": 1782184604.54503,
+    "ast_hash": "84b853b926ec52c2cf22e0d8643595ab",
+    "semantic_hash": "84b853b926ec52c2cf22e0d8643595ab"
+  },
+  "glc/__init__.py": {
+    "mtime": 1782184604.5458496,
+    "ast_hash": "65e3089e72695bdd29c4dc6deec1dd6e",
+    "semantic_hash": "65e3089e72695bdd29c4dc6deec1dd6e"
+  },
+  "glc/audit/__init__.py": {
+    "mtime": 1782184604.5460622,
+    "ast_hash": "a6d48a9363606ff470db8526ce46b1a4",
+    "semantic_hash": "a6d48a9363606ff470db8526ce46b1a4"
+  },
+  "glc/audit/schema.sql": {
+    "mtime": 1782184604.546141,
+    "ast_hash": "1af2537faa0a14ddf3fea12b4a644c1c",
+    "semantic_hash": "1af2537faa0a14ddf3fea12b4a644c1c"
+  },
+  "glc/audit/store.py": {
+    "mtime": 1782184604.5462313,
+    "ast_hash": "a517a6544bfee843f8f40cc847f60b1c",
+    "semantic_hash": "a517a6544bfee843f8f40cc847f60b1c"
+  },
+  "glc/cache.py": {
+    "mtime": 1782184604.5463178,
+    "ast_hash": "90808f26d33728701804a0c95f6c5ca3",
+    "semantic_hash": "90808f26d33728701804a0c95f6c5ca3"
+  },
+  "glc/channels/__init__.py": {
+    "mtime": 1782184604.546532,
+    "ast_hash": "74d8e25c084f270208498fc203d21a57",
+    "semantic_hash": "74d8e25c084f270208498fc203d21a57"
+  },
+  "glc/channels/base.py": {
+    "mtime": 1782184604.5466142,
+    "ast_hash": "970288f31e0f3ad1f03936eea32ee8a9",
+    "semantic_hash": "970288f31e0f3ad1f03936eea32ee8a9"
+  },
+  "glc/channels/catalogue/__init__.py": {
+    "mtime": 1782184604.5467408,
+    "ast_hash": "3190f49d18546967c98411fda5d96d92",
+    "semantic_hash": "3190f49d18546967c98411fda5d96d92"
+  },
+  "glc/channels/catalogue/discord/__init__.py": {
+    "mtime": 1782184604.5469668,
+    "ast_hash": "acf944194cb481159551f98ec0fd57bd",
+    "semantic_hash": "acf944194cb481159551f98ec0fd57bd"
+  },
+  "glc/channels/catalogue/discord/adapter.py": {
+    "mtime": 1782184604.5470529,
+    "ast_hash": "0ed06f55bd7c5ae13543a61d670633f4",
+    "semantic_hash": "0ed06f55bd7c5ae13543a61d670633f4"
+  },
+  "glc/channels/catalogue/discord/schemas.py": {
+    "mtime": 1782184604.547135,
+    "ast_hash": "41ba4da4401fffea07de999fe6485e54",
+    "semantic_hash": "41ba4da4401fffea07de999fe6485e54"
+  },
+  "glc/channels/catalogue/gmail/__init__.py": {
+    "mtime": 1782184604.5473402,
+    "ast_hash": "637ab5428e1805e2e9ce9fde2eafa642",
+    "semantic_hash": "637ab5428e1805e2e9ce9fde2eafa642"
+  },
+  "glc/channels/catalogue/gmail/adapter.py": {
+    "mtime": 1782184604.5474184,
+    "ast_hash": "bcfb943764394531a598d8f656de6eb3",
+    "semantic_hash": "bcfb943764394531a598d8f656de6eb3"
+  },
+  "glc/channels/catalogue/gmail/schemas.py": {
+    "mtime": 1782184604.5474985,
+    "ast_hash": "3d609f5fc5fc4e24fb961f2e8e20ad78",
+    "semantic_hash": "3d609f5fc5fc4e24fb961f2e8e20ad78"
+  },
+  "glc/channels/catalogue/imap/__init__.py": {
+    "mtime": 1782184604.5476947,
+    "ast_hash": "b154076f8027d4d08e7d56dc45422cfd",
+    "semantic_hash": "b154076f8027d4d08e7d56dc45422cfd"
+  },
+  "glc/channels/catalogue/imap/adapter.py": {
+    "mtime": 1782184604.5477715,
+    "ast_hash": "c40fdf54dacab80b02bc8a48da241cc0",
+    "semantic_hash": "c40fdf54dacab80b02bc8a48da241cc0"
+  },
+  "glc/channels/catalogue/imap/schemas.py": {
+    "mtime": 1782184604.547851,
+    "ast_hash": "40cb781bd492301eaee5e87d2e82e3ee",
+    "semantic_hash": "40cb781bd492301eaee5e87d2e82e3ee"
+  },
+  "glc/channels/catalogue/line/__init__.py": {
+    "mtime": 1782184604.5480561,
+    "ast_hash": "687f1c1e47bae71427204c0f69b5e1c6",
+    "semantic_hash": "687f1c1e47bae71427204c0f69b5e1c6"
+  },
+  "glc/channels/catalogue/line/adapter.py": {
+    "mtime": 1782185389.9480877,
+    "ast_hash": "b54caba95a1e1046d6dc5cedef502232",
+    "semantic_hash": "b54caba95a1e1046d6dc5cedef502232"
+  },
+  "glc/channels/catalogue/line/schemas.py": {
+    "mtime": 1782185220.71046,
+    "ast_hash": "cc4456588d8a4ab77b01197b70265753",
+    "semantic_hash": "cc4456588d8a4ab77b01197b70265753"
+  },
+  "glc/channels/catalogue/local_mic/__init__.py": {
+    "mtime": 1782184604.5484295,
+    "ast_hash": "f8bf3c7cb0fdebeb8c1c10eaad5ef938",
+    "semantic_hash": "f8bf3c7cb0fdebeb8c1c10eaad5ef938"
+  },
+  "glc/channels/catalogue/local_mic/adapter.py": {
+    "mtime": 1782184604.5485036,
+    "ast_hash": "8d7575f23da4901a93591faf18a77095",
+    "semantic_hash": "8d7575f23da4901a93591faf18a77095"
+  },
+  "glc/channels/catalogue/local_mic/schemas.py": {
+    "mtime": 1782184604.5485768,
+    "ast_hash": "5e46318c300e6110666c11cc2ec0439b",
+    "semantic_hash": "5e46318c300e6110666c11cc2ec0439b"
+  },
+  "glc/channels/catalogue/matrix/__init__.py": {
+    "mtime": 1782184604.5487874,
+    "ast_hash": "36155c189a3b5df68d3197783ea55ae8",
+    "semantic_hash": "36155c189a3b5df68d3197783ea55ae8"
+  },
+  "glc/channels/catalogue/matrix/adapter.py": {
+    "mtime": 1782184604.5488749,
+    "ast_hash": "e1f8f4ec41a47eb0af2851cbe5f57d4f",
+    "semantic_hash": "e1f8f4ec41a47eb0af2851cbe5f57d4f"
+  },
+  "glc/channels/catalogue/matrix/schemas.py": {
+    "mtime": 1782184604.5489495,
+    "ast_hash": "d1d9fe91bc1300d1b74aaae28c3366ad",
+    "semantic_hash": "d1d9fe91bc1300d1b74aaae28c3366ad"
+  },
+  "glc/channels/catalogue/signal/__init__.py": {
+    "mtime": 1782184604.5491471,
+    "ast_hash": "200fd357b8890b4d78d2a6ac0191af19",
+    "semantic_hash": "200fd357b8890b4d78d2a6ac0191af19"
+  },
+  "glc/channels/catalogue/signal/adapter.py": {
+    "mtime": 1782184604.5492237,
+    "ast_hash": "2b49354ea26c48e29f18aba47767989a",
+    "semantic_hash": "2b49354ea26c48e29f18aba47767989a"
+  },
+  "glc/channels/catalogue/signal/schemas.py": {
+    "mtime": 1782184604.5493035,
+    "ast_hash": "d26ddcf0710046534b3ff22702fd8a39",
+    "semantic_hash": "d26ddcf0710046534b3ff22702fd8a39"
+  },
+  "glc/channels/catalogue/slack/__init__.py": {
+    "mtime": 1782184604.5495017,
+    "ast_hash": "9f15b2466e971440d5065bd3a8edce53",
+    "semantic_hash": "9f15b2466e971440d5065bd3a8edce53"
+  },
+  "glc/channels/catalogue/slack/adapter.py": {
+    "mtime": 1782184604.5495806,
+    "ast_hash": "73fa89292da9133031e6f91b82c28523",
+    "semantic_hash": "73fa89292da9133031e6f91b82c28523"
+  },
+  "glc/channels/catalogue/slack/schemas.py": {
+    "mtime": 1782184604.5496573,
+    "ast_hash": "3f47c8813489dbfa3834c07ab7892966",
+    "semantic_hash": "3f47c8813489dbfa3834c07ab7892966"
+  },
+  "glc/channels/catalogue/teams/__init__.py": {
+    "mtime": 1782184604.5498738,
+    "ast_hash": "9ac1ae72879982fc906ca69751a17a19",
+    "semantic_hash": "9ac1ae72879982fc906ca69751a17a19"
+  },
+  "glc/channels/catalogue/teams/adapter.py": {
+    "mtime": 1782184604.549952,
+    "ast_hash": "8f67e822c77db9abc933639e2562e0f5",
+    "semantic_hash": "8f67e822c77db9abc933639e2562e0f5"
+  },
+  "glc/channels/catalogue/teams/schemas.py": {
+    "mtime": 1782184604.5500324,
+    "ast_hash": "2dcc90775823953ebe941d61fc668546",
+    "semantic_hash": "2dcc90775823953ebe941d61fc668546"
+  },
+  "glc/channels/catalogue/telegram/__init__.py": {
+    "mtime": 1782184604.55024,
+    "ast_hash": "f46948886cb92aad50b59273d7c1c73d",
+    "semantic_hash": "f46948886cb92aad50b59273d7c1c73d"
+  },
+  "glc/channels/catalogue/telegram/adapter.py": {
+    "mtime": 1782184604.550318,
+    "ast_hash": "e0f85e6adbe085e79bf4f33f5a822cba",
+    "semantic_hash": "e0f85e6adbe085e79bf4f33f5a822cba"
+  },
+  "glc/channels/catalogue/telegram/schemas.py": {
+    "mtime": 1782184604.5503922,
+    "ast_hash": "227c6c20a0d381eb277ed6695af45e81",
+    "semantic_hash": "227c6c20a0d381eb277ed6695af45e81"
+  },
+  "glc/channels/catalogue/twilio_sms/__init__.py": {
+    "mtime": 1782184604.5506136,
+    "ast_hash": "de1c9bd2eafa2447a05811255160e799",
+    "semantic_hash": "de1c9bd2eafa2447a05811255160e799"
+  },
+  "glc/channels/catalogue/twilio_sms/adapter.py": {
+    "mtime": 1782184604.5506968,
+    "ast_hash": "a76a07f125fe60e607ff9ecf3e054c89",
+    "semantic_hash": "a76a07f125fe60e607ff9ecf3e054c89"
+  },
+  "glc/channels/catalogue/twilio_sms/schemas.py": {
+    "mtime": 1782184604.5507712,
+    "ast_hash": "6d51036460907c35a6f15f621e1ca557",
+    "semantic_hash": "6d51036460907c35a6f15f621e1ca557"
+  },
+  "glc/channels/catalogue/twilio_voice/__init__.py": {
+    "mtime": 1782184604.550994,
+    "ast_hash": "ac05accfa969fd4253ab6ae9e04c782e",
+    "semantic_hash": "ac05accfa969fd4253ab6ae9e04c782e"
+  },
+  "glc/channels/catalogue/twilio_voice/adapter.py": {
+    "mtime": 1782184604.5510697,
+    "ast_hash": "65db33bd6d80ebe0b923dcb28b62ed47",
+    "semantic_hash": "65db33bd6d80ebe0b923dcb28b62ed47"
+  },
+  "glc/channels/catalogue/twilio_voice/schemas.py": {
+    "mtime": 1782184604.5511441,
+    "ast_hash": "2086fdec2cab39bd7b62723fb1ed4ab7",
+    "semantic_hash": "2086fdec2cab39bd7b62723fb1ed4ab7"
+  },
+  "glc/channels/catalogue/webhook/__init__.py": {
+    "mtime": 1782184604.5513377,
+    "ast_hash": "84d94bd31648e01a788ab0fcecb4ee2f",
+    "semantic_hash": "84d94bd31648e01a788ab0fcecb4ee2f"
+  },
+  "glc/channels/catalogue/webhook/adapter.py": {
+    "mtime": 1782184604.5514143,
+    "ast_hash": "bb4dc5a59b333ca1664bea7d6704660a",
+    "semantic_hash": "bb4dc5a59b333ca1664bea7d6704660a"
+  },
+  "glc/channels/catalogue/webhook/schemas.py": {
+    "mtime": 1782184604.551496,
+    "ast_hash": "8118cfefe1c1ad9b3a8b79cdea9f0f60",
+    "semantic_hash": "8118cfefe1c1ad9b3a8b79cdea9f0f60"
+  },
+  "glc/channels/catalogue/webui/__init__.py": {
+    "mtime": 1782184604.5517015,
+    "ast_hash": "12f6bacee91e67818b59461a43f8ce5b",
+    "semantic_hash": "12f6bacee91e67818b59461a43f8ce5b"
+  },
+  "glc/channels/catalogue/webui/adapter.py": {
+    "mtime": 1782184604.5517735,
+    "ast_hash": "d27dbc74326f18c5c704f2475f5865ea",
+    "semantic_hash": "d27dbc74326f18c5c704f2475f5865ea"
+  },
+  "glc/channels/catalogue/webui/schemas.py": {
+    "mtime": 1782184604.5518537,
+    "ast_hash": "45a6ad6a5ac479afe99559bdb5da4659",
+    "semantic_hash": "45a6ad6a5ac479afe99559bdb5da4659"
+  },
+  "glc/channels/catalogue/whatsapp/__init__.py": {
+    "mtime": 1782184604.5520477,
+    "ast_hash": "d1400ebe404095ed0752b5fafef5dd36",
+    "semantic_hash": "d1400ebe404095ed0752b5fafef5dd36"
+  },
+  "glc/channels/catalogue/whatsapp/adapter.py": {
+    "mtime": 1782184604.5521228,
+    "ast_hash": "ae6de0363d65c2c97fa1ef264cc087dc",
+    "semantic_hash": "ae6de0363d65c2c97fa1ef264cc087dc"
+  },
+  "glc/channels/catalogue/whatsapp/schemas.py": {
+    "mtime": 1782184604.5521965,
+    "ast_hash": "e51c3df353c1c8658e176fecdc44ccea",
+    "semantic_hash": "e51c3df353c1c8658e176fecdc44ccea"
+  },
+  "glc/channels/envelope.py": {
+    "mtime": 1782184604.5522833,
+    "ast_hash": "75ba2808ab4251fbbe6828209f17b3d5",
+    "semantic_hash": "75ba2808ab4251fbbe6828209f17b3d5"
+  },
+  "glc/channels/registry.py": {
+    "mtime": 1782184604.5523639,
+    "ast_hash": "e6568a84e971925f9e01cd62e12916b7",
+    "semantic_hash": "e6568a84e971925f9e01cd62e12916b7"
+  },
+  "glc/cli.py": {
+    "mtime": 1782184604.552438,
+    "ast_hash": "78afa54863220a7388b802628e66a804",
+    "semantic_hash": "78afa54863220a7388b802628e66a804"
+  },
+  "glc/config.py": {
+    "mtime": 1782184604.552518,
+    "ast_hash": "307713f3ce366cef9a9b7e49da1b6dcd",
+    "semantic_hash": "307713f3ce366cef9a9b7e49da1b6dcd"
+  },
+  "glc/db.py": {
+    "mtime": 1782184604.552608,
+    "ast_hash": "2bd91d18ecf6245935ab1be4017d2944",
+    "semantic_hash": "2bd91d18ecf6245935ab1be4017d2944"
+  },
+  "glc/embedders.py": {
+    "mtime": 1782184604.5527322,
+    "ast_hash": "86fe7dcc001643c8d3296ce62463f71e",
+    "semantic_hash": "86fe7dcc001643c8d3296ce62463f71e"
+  },
+  "glc/llm_schemas.py": {
+    "mtime": 1782184604.552834,
+    "ast_hash": "435b5650366ea2db2515938a5c2a9e75",
+    "semantic_hash": "435b5650366ea2db2515938a5c2a9e75"
+  },
+  "glc/main.py": {
+    "mtime": 1782184604.5529292,
+    "ast_hash": "281e69c93dc4d080ca6e79861625f18a",
+    "semantic_hash": "281e69c93dc4d080ca6e79861625f18a"
+  },
+  "glc/policy/__init__.py": {
+    "mtime": 1782184604.5530558,
+    "ast_hash": "f871c92706e0418e5e3846b3f0e41dd7",
+    "semantic_hash": "f871c92706e0418e5e3846b3f0e41dd7"
+  },
+  "glc/policy/engine.py": {
+    "mtime": 1782184604.5531504,
+    "ast_hash": "f9a5dd549cf5c6c8a68089030ef59648",
+    "semantic_hash": "f9a5dd549cf5c6c8a68089030ef59648"
+  },
+  "glc/policy/schemas.py": {
+    "mtime": 1782184604.5533137,
+    "ast_hash": "9d6dfbb57e9c10abf05bc2c58765b0eb",
+    "semantic_hash": "9d6dfbb57e9c10abf05bc2c58765b0eb"
+  },
+  "glc/pricing.py": {
+    "mtime": 1782184604.5533898,
+    "ast_hash": "894e21f3c8807ee9ef87d71c09cd1215",
+    "semantic_hash": "894e21f3c8807ee9ef87d71c09cd1215"
+  },
+  "glc/providers.py": {
+    "mtime": 1782184604.5535579,
+    "ast_hash": "9af9208f150a41575b7a9719520f1217",
+    "semantic_hash": "9af9208f150a41575b7a9719520f1217"
+  },
+  "glc/routes/__init__.py": {
+    "mtime": 1782184604.5537589,
+    "ast_hash": "d45ab51a34d1efa8533d60137176ec29",
+    "semantic_hash": "d45ab51a34d1efa8533d60137176ec29"
+  },
+  "glc/routes/channels.py": {
+    "mtime": 1782184604.5538502,
+    "ast_hash": "bfcb7aa2fe8c07cd2fb7d03632793e37",
+    "semantic_hash": "bfcb7aa2fe8c07cd2fb7d03632793e37"
+  },
+  "glc/routes/chat.py": {
+    "mtime": 1782184604.553988,
+    "ast_hash": "6f3e057bd3f0f78179e71e5a73da8235",
+    "semantic_hash": "6f3e057bd3f0f78179e71e5a73da8235"
+  },
+  "glc/routes/control.py": {
+    "mtime": 1782184604.5540867,
+    "ast_hash": "b30687a65ecdb78af7f45c7a6afc1044",
+    "semantic_hash": "b30687a65ecdb78af7f45c7a6afc1044"
+  },
+  "glc/routes/speak.py": {
+    "mtime": 1782184604.5541658,
+    "ast_hash": "5394c494e3853307dcb07dea9bc9259c",
+    "semantic_hash": "5394c494e3853307dcb07dea9bc9259c"
+  },
+  "glc/routes/transcribe.py": {
+    "mtime": 1782184604.5542433,
+    "ast_hash": "1f7569f712e8531809c0ea7ed80a32f8",
+    "semantic_hash": "1f7569f712e8531809c0ea7ed80a32f8"
+  },
+  "glc/routing.py": {
+    "mtime": 1782184604.554339,
+    "ast_hash": "2a03c785dff369eaf4e7d284a64d2b35",
+    "semantic_hash": "2a03c785dff369eaf4e7d284a64d2b35"
+  },
+  "glc/security/__init__.py": {
+    "mtime": 1782184604.5544512,
+    "ast_hash": "c3362617447302a77d4a721fc29d9a1e",
+    "semantic_hash": "c3362617447302a77d4a721fc29d9a1e"
+  },
+  "glc/security/allowlists.py": {
+    "mtime": 1782184604.554529,
+    "ast_hash": "13fa6dda7565d42e0a4703eaaac0b024",
+    "semantic_hash": "13fa6dda7565d42e0a4703eaaac0b024"
+  },
+  "glc/security/pairing.py": {
+    "mtime": 1782184604.55461,
+    "ast_hash": "7559a0fdc13e34f5ee3ff2a32292c849",
+    "semantic_hash": "7559a0fdc13e34f5ee3ff2a32292c849"
+  },
+  "glc/security/rate_limits.py": {
+    "mtime": 1782184604.5546882,
+    "ast_hash": "abb9d5c14143a1e8884342bb194ebea3",
+    "semantic_hash": "abb9d5c14143a1e8884342bb194ebea3"
+  },
+  "glc/security/trust_level.py": {
+    "mtime": 1782184604.5547628,
+    "ast_hash": "38c025b0293558c2647605d984645e74",
+    "semantic_hash": "38c025b0293558c2647605d984645e74"
+  },
+  "glc/voice/__init__.py": {
+    "mtime": 1782184604.5548794,
+    "ast_hash": "b832add2b9dc2be4638f9ab6cc0ec32a",
+    "semantic_hash": "b832add2b9dc2be4638f9ab6cc0ec32a"
+  },
+  "glc/voice/stt/__init__.py": {
+    "mtime": 1782184604.554993,
+    "ast_hash": "1e285900c6b89353a1bd4df1fe723f71",
+    "semantic_hash": "1e285900c6b89353a1bd4df1fe723f71"
+  },
+  "glc/voice/stt/base.py": {
+    "mtime": 1782184604.5550673,
+    "ast_hash": "bba3ef051537e128d1346d79bf7965b2",
+    "semantic_hash": "bba3ef051537e128d1346d79bf7965b2"
+  },
+  "glc/voice/stt/providers/__init__.py": {
+    "mtime": 1782184604.5551777,
+    "ast_hash": "ddf006f343338600a1a193e0670030e5",
+    "semantic_hash": "ddf006f343338600a1a193e0670030e5"
+  },
+  "glc/voice/stt/providers/gemini_live/__init__.py": {
+    "mtime": 1782184604.5553677,
+    "ast_hash": "8706dc0cca72ad8d8e720b3fda403dcd",
+    "semantic_hash": "8706dc0cca72ad8d8e720b3fda403dcd"
+  },
+  "glc/voice/stt/providers/gemini_live/adapter.py": {
+    "mtime": 1782184604.5554483,
+    "ast_hash": "d12de80a3fd0941a8d2ed3f5e518f30f",
+    "semantic_hash": "d12de80a3fd0941a8d2ed3f5e518f30f"
+  },
+  "glc/voice/stt/providers/gemini_live/schemas.py": {
+    "mtime": 1782184604.5555212,
+    "ast_hash": "fdcb7b1d5c83eabda414e9b6ee02a6c3",
+    "semantic_hash": "fdcb7b1d5c83eabda414e9b6ee02a6c3"
+  },
+  "glc/voice/stt/providers/groq_whisper/__init__.py": {
+    "mtime": 1782184604.5557346,
+    "ast_hash": "f7d303cf15c8599b1bc2e5f307a34cb7",
+    "semantic_hash": "f7d303cf15c8599b1bc2e5f307a34cb7"
+  },
+  "glc/voice/stt/providers/groq_whisper/adapter.py": {
+    "mtime": 1782184604.5558167,
+    "ast_hash": "e9a8962c3410835e38d46f0e20802799",
+    "semantic_hash": "e9a8962c3410835e38d46f0e20802799"
+  },
+  "glc/voice/stt/providers/groq_whisper/schemas.py": {
+    "mtime": 1782184604.5558972,
+    "ast_hash": "1dae3cd919f39df037388a064ebeb8b8",
+    "semantic_hash": "1dae3cd919f39df037388a064ebeb8b8"
+  },
+  "glc/voice/stt/providers/whisper_cpp/__init__.py": {
+    "mtime": 1782184604.5560837,
+    "ast_hash": "0a5ae927d2f59b5680d3eff00f8eaa87",
+    "semantic_hash": "0a5ae927d2f59b5680d3eff00f8eaa87"
+  },
+  "glc/voice/stt/providers/whisper_cpp/adapter.py": {
+    "mtime": 1782184604.556151,
+    "ast_hash": "c31e871e2c166036b333b1f961843891",
+    "semantic_hash": "c31e871e2c166036b333b1f961843891"
+  },
+  "glc/voice/stt/providers/whisper_cpp/schemas.py": {
+    "mtime": 1782184604.5562253,
+    "ast_hash": "3a25b75ce2352d447b80046e2a5323bd",
+    "semantic_hash": "3a25b75ce2352d447b80046e2a5323bd"
+  },
+  "glc/voice/stt/providers/whisper_cpp/wrapper.py": {
+    "mtime": 1782184604.5563102,
+    "ast_hash": "423c71c2b880eab21c2affe1aafe4db5",
+    "semantic_hash": "423c71c2b880eab21c2affe1aafe4db5"
+  },
+  "glc/voice/stt/router.py": {
+    "mtime": 1782184604.556395,
+    "ast_hash": "1b86db5d46c55cead212bc19bf05b2d7",
+    "semantic_hash": "1b86db5d46c55cead212bc19bf05b2d7"
+  },
+  "glc/voice/tts/__init__.py": {
+    "mtime": 1782184604.5565226,
+    "ast_hash": "16907bba7b1421abf25da8edc2a1611b",
+    "semantic_hash": "16907bba7b1421abf25da8edc2a1611b"
+  },
+  "glc/voice/tts/base.py": {
+    "mtime": 1782184604.5566053,
+    "ast_hash": "7bd177af9db34e8a61b3d0ba8b0bb9d8",
+    "semantic_hash": "7bd177af9db34e8a61b3d0ba8b0bb9d8"
+  },
+  "glc/voice/tts/providers/__init__.py": {
+    "mtime": 1782184604.5567174,
+    "ast_hash": "54cc296a0cb6b815fe500311101cdc84",
+    "semantic_hash": "54cc296a0cb6b815fe500311101cdc84"
+  },
+  "glc/voice/tts/providers/cartesia/__init__.py": {
+    "mtime": 1782184604.5569043,
+    "ast_hash": "e8bcb6258f16fdc5fa78a3d8c9dba9d2",
+    "semantic_hash": "e8bcb6258f16fdc5fa78a3d8c9dba9d2"
+  },
+  "glc/voice/tts/providers/cartesia/adapter.py": {
+    "mtime": 1782184604.5569782,
+    "ast_hash": "af01fa6a0d5af807305026a13c6ed168",
+    "semantic_hash": "af01fa6a0d5af807305026a13c6ed168"
+  },
+  "glc/voice/tts/providers/cartesia/schemas.py": {
+    "mtime": 1782184604.5570536,
+    "ast_hash": "aee70966279555177d68ea834a504612",
+    "semantic_hash": "aee70966279555177d68ea834a504612"
+  },
+  "glc/voice/tts/providers/elevenlabs/__init__.py": {
+    "mtime": 1782184604.5572374,
+    "ast_hash": "092a3c172413c73299b7c0575575fd5c",
+    "semantic_hash": "092a3c172413c73299b7c0575575fd5c"
+  },
+  "glc/voice/tts/providers/elevenlabs/adapter.py": {
+    "mtime": 1782184604.5573072,
+    "ast_hash": "f2b1b80ccd70b441c93d75e2d749e98c",
+    "semantic_hash": "f2b1b80ccd70b441c93d75e2d749e98c"
+  },
+  "glc/voice/tts/providers/elevenlabs/schemas.py": {
+    "mtime": 1782184604.5574014,
+    "ast_hash": "ef2be7911c5b4d9646ccb9ebbb3fa44d",
+    "semantic_hash": "ef2be7911c5b4d9646ccb9ebbb3fa44d"
+  },
+  "glc/voice/tts/providers/gemini_live/__init__.py": {
+    "mtime": 1782184604.5575907,
+    "ast_hash": "7f031035af10341c344d45ba3d7da6fc",
+    "semantic_hash": "7f031035af10341c344d45ba3d7da6fc"
+  },
+  "glc/voice/tts/providers/gemini_live/adapter.py": {
+    "mtime": 1782184604.5576615,
+    "ast_hash": "20da0f304b03aef77b1a6d31625e7826",
+    "semantic_hash": "20da0f304b03aef77b1a6d31625e7826"
+  },
+  "glc/voice/tts/providers/gemini_live/schemas.py": {
+    "mtime": 1782184604.5577266,
+    "ast_hash": "4d63583ad9f4d0aa5e6afbe47f56dad4",
+    "semantic_hash": "4d63583ad9f4d0aa5e6afbe47f56dad4"
+  },
+  "glc/voice/tts/providers/kokoro/__init__.py": {
+    "mtime": 1782184604.5579233,
+    "ast_hash": "882e4342e25e986f70f7692b3aa0fb2a",
+    "semantic_hash": "882e4342e25e986f70f7692b3aa0fb2a"
+  },
+  "glc/voice/tts/providers/kokoro/adapter.py": {
+    "mtime": 1782184604.5579865,
+    "ast_hash": "8ac69f9d960885ed3af532bf9fb61381",
+    "semantic_hash": "8ac69f9d960885ed3af532bf9fb61381"
+  },
+  "glc/voice/tts/providers/kokoro/runner.py": {
+    "mtime": 1782184604.5580647,
+    "ast_hash": "4c698a794ccf521f90bd766e8078947d",
+    "semantic_hash": "4c698a794ccf521f90bd766e8078947d"
+  },
+  "glc/voice/tts/providers/kokoro/schemas.py": {
+    "mtime": 1782184604.5581608,
+    "ast_hash": "ea8bb58652dace15201fb259c7aa40b9",
+    "semantic_hash": "ea8bb58652dace15201fb259c7aa40b9"
+  },
+  "glc/voice/tts/providers/system_fallback/__init__.py": {
+    "mtime": 1782184604.5583863,
+    "ast_hash": "bc3c38f29ff1ce50e1c0933cda20e660",
+    "semantic_hash": "bc3c38f29ff1ce50e1c0933cda20e660"
+  },
+  "glc/voice/tts/providers/system_fallback/adapter.py": {
+    "mtime": 1782184604.558489,
+    "ast_hash": "3b59f82eb8eec13defbfe8ab149c7dc1",
+    "semantic_hash": "3b59f82eb8eec13defbfe8ab149c7dc1"
+  },
+  "glc/voice/tts/providers/system_fallback/schemas.py": {
+    "mtime": 1782184604.558592,
+    "ast_hash": "4a847ecd62a25149f3a10cf0cff0af57",
+    "semantic_hash": "4a847ecd62a25149f3a10cf0cff0af57"
+  },
+  "glc/voice/tts/router.py": {
+    "mtime": 1782184604.5587006,
+    "ast_hash": "4ee30a8e520012b5d0148a006c800e80",
+    "semantic_hash": "4ee30a8e520012b5d0148a006c800e80"
+  },
+  "pyproject.toml": {
+    "mtime": 1782184604.5588083,
+    "ast_hash": "11a51b7e4e1cd4b7d2bfabcccd1cce48",
+    "semantic_hash": "11a51b7e4e1cd4b7d2bfabcccd1cce48"
+  },
+  "scripts/check_pr_boundaries.py": {
+    "mtime": 1782184604.5589654,
+    "ast_hash": "ba1204f22bee4c9d8f593331e1d9f1a1",
+    "semantic_hash": "ba1204f22bee4c9d8f593331e1d9f1a1"
+  },
+  "scripts/scorecard.py": {
+    "mtime": 1782184604.559105,
+    "ast_hash": "07e79575f9c6ec155be9b8b6602de6b9",
+    "semantic_hash": "07e79575f9c6ec155be9b8b6602de6b9"
+  },
+  "scripts/validate_claims.py": {
+    "mtime": 1782184604.5592015,
+    "ast_hash": "8bfa54d1317ad71ed33dd198cbcd3cd1",
+    "semantic_hash": "8bfa54d1317ad71ed33dd198cbcd3cd1"
+  },
+  "scripts/validate_envelope.py": {
+    "mtime": 1782184604.5592968,
+    "ast_hash": "cd6e4a08c2eb17cb3007241354941ac7",
+    "semantic_hash": "cd6e4a08c2eb17cb3007241354941ac7"
+  },
+  "scripts/validate_policy.py": {
+    "mtime": 1782184604.5593934,
+    "ast_hash": "87dc7bfbf92bfef65a48ea2579b5573b",
+    "semantic_hash": "87dc7bfbf92bfef65a48ea2579b5573b"
+  },
+  "tests/__init__.py": {
+    "mtime": 1782184604.5594912,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/channels/__init__.py": {
+    "mtime": 1782184604.5596094,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/channels/conftest.py": {
+    "mtime": 1782184604.559743,
+    "ast_hash": "4f4feb80ac452727582932954a4c53cd",
+    "semantic_hash": "4f4feb80ac452727582932954a4c53cd"
+  },
+  "tests/channels/mocks/__init__.py": {
+    "mtime": 1782184604.5598302,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/channels/mocks/discord_mock.py": {
+    "mtime": 1782184604.559969,
+    "ast_hash": "fa88f387bc75ecc53af0cbc9de2b2082",
+    "semantic_hash": "fa88f387bc75ecc53af0cbc9de2b2082"
+  },
+  "tests/channels/mocks/gmail_mock.py": {
+    "mtime": 1782184604.5600686,
+    "ast_hash": "402e48531788e65f6b5b27a2b8536932",
+    "semantic_hash": "402e48531788e65f6b5b27a2b8536932"
+  },
+  "tests/channels/mocks/imap_mock.py": {
+    "mtime": 1782184604.560169,
+    "ast_hash": "c4804f08614297ae1f8a7aa2b0bdcac4",
+    "semantic_hash": "c4804f08614297ae1f8a7aa2b0bdcac4"
+  },
+  "tests/channels/mocks/line_mock.py": {
+    "mtime": 1782184604.5602658,
+    "ast_hash": "f86a91b1bded9ec104d1b123e768a426",
+    "semantic_hash": "f86a91b1bded9ec104d1b123e768a426"
+  },
+  "tests/channels/mocks/local_mic_mock.py": {
+    "mtime": 1782184604.5603693,
+    "ast_hash": "1d2ffe799abd159b097a196b6b095f4a",
+    "semantic_hash": "1d2ffe799abd159b097a196b6b095f4a"
+  },
+  "tests/channels/mocks/matrix_mock.py": {
+    "mtime": 1782184604.5604637,
+    "ast_hash": "47ce9e9addd53b14772b14c466d9621f",
+    "semantic_hash": "47ce9e9addd53b14772b14c466d9621f"
+  },
+  "tests/channels/mocks/signal_mock.py": {
+    "mtime": 1782184604.5605702,
+    "ast_hash": "a95719ae0d02d57934cb63d9dd6ceb13",
+    "semantic_hash": "a95719ae0d02d57934cb63d9dd6ceb13"
+  },
+  "tests/channels/mocks/slack_mock.py": {
+    "mtime": 1782184604.5606656,
+    "ast_hash": "f81c69d8587a2fe563fae711b5ff516a",
+    "semantic_hash": "f81c69d8587a2fe563fae711b5ff516a"
+  },
+  "tests/channels/mocks/teams_mock.py": {
+    "mtime": 1782184604.5607548,
+    "ast_hash": "0b0c4844e0448c84b6025490d294374e",
+    "semantic_hash": "0b0c4844e0448c84b6025490d294374e"
+  },
+  "tests/channels/mocks/telegram_mock.py": {
+    "mtime": 1782184604.5608373,
+    "ast_hash": "edc865bd7790a4af20a118a8ad2b42f2",
+    "semantic_hash": "edc865bd7790a4af20a118a8ad2b42f2"
+  },
+  "tests/channels/mocks/twilio_sms_mock.py": {
+    "mtime": 1782184604.5609238,
+    "ast_hash": "07e2293db22dc23c9539b00e013ee2ff",
+    "semantic_hash": "07e2293db22dc23c9539b00e013ee2ff"
+  },
+  "tests/channels/mocks/twilio_voice_mock.py": {
+    "mtime": 1782184604.5610301,
+    "ast_hash": "5c64e8c0130638896fc5da7d24bd6cf0",
+    "semantic_hash": "5c64e8c0130638896fc5da7d24bd6cf0"
+  },
+  "tests/channels/mocks/webhook_mock.py": {
+    "mtime": 1782184604.5611374,
+    "ast_hash": "74b2b0ca82589c7466588e67b0d2641c",
+    "semantic_hash": "74b2b0ca82589c7466588e67b0d2641c"
+  },
+  "tests/channels/mocks/webui_mock.py": {
+    "mtime": 1782184604.561232,
+    "ast_hash": "11fd1f33585839e7905e66ce332601d5",
+    "semantic_hash": "11fd1f33585839e7905e66ce332601d5"
+  },
+  "tests/channels/mocks/whatsapp_mock.py": {
+    "mtime": 1782184604.561318,
+    "ast_hash": "0976fb1a9a2222b31c3b7a3280765cc2",
+    "semantic_hash": "0976fb1a9a2222b31c3b7a3280765cc2"
+  },
+  "tests/channels/test_discord.py": {
+    "mtime": 1782184604.5613956,
+    "ast_hash": "bf7ee6095e815ebd199ae88a865f4aa7",
+    "semantic_hash": "bf7ee6095e815ebd199ae88a865f4aa7"
+  },
+  "tests/channels/test_gmail.py": {
+    "mtime": 1782184604.5614748,
+    "ast_hash": "fc7288037297b2f46361e6d44940fc1f",
+    "semantic_hash": "fc7288037297b2f46361e6d44940fc1f"
+  },
+  "tests/channels/test_imap.py": {
+    "mtime": 1782184604.5615819,
+    "ast_hash": "5f909067c28cdebd2f9d6b714b51f339",
+    "semantic_hash": "5f909067c28cdebd2f9d6b714b51f339"
+  },
+  "tests/channels/test_line.py": {
+    "mtime": 1782184604.56168,
+    "ast_hash": "c510cb59570cdb8a23db4276493bf141",
+    "semantic_hash": "c510cb59570cdb8a23db4276493bf141"
+  },
+  "tests/channels/test_local_mic.py": {
+    "mtime": 1782184604.5617766,
+    "ast_hash": "3a6364d794f0bcb12234ff042344607c",
+    "semantic_hash": "3a6364d794f0bcb12234ff042344607c"
+  },
+  "tests/channels/test_matrix.py": {
+    "mtime": 1782184604.5618546,
+    "ast_hash": "d29a279a2772df31f12df06964a28511",
+    "semantic_hash": "d29a279a2772df31f12df06964a28511"
+  },
+  "tests/channels/test_signal.py": {
+    "mtime": 1782184604.5619347,
+    "ast_hash": "f69024e784435960e3cb9f7ed873d74f",
+    "semantic_hash": "f69024e784435960e3cb9f7ed873d74f"
+  },
+  "tests/channels/test_slack.py": {
+    "mtime": 1782184604.5620182,
+    "ast_hash": "8fd867c23fe1b38d4e0f7d01438e2247",
+    "semantic_hash": "8fd867c23fe1b38d4e0f7d01438e2247"
+  },
+  "tests/channels/test_teams.py": {
+    "mtime": 1782184604.5620973,
+    "ast_hash": "8f04ef6c1668bb5c78e847549da55086",
+    "semantic_hash": "8f04ef6c1668bb5c78e847549da55086"
+  },
+  "tests/channels/test_telegram.py": {
+    "mtime": 1782184604.5621958,
+    "ast_hash": "2e98f612ac77d7ebcbd2df2da350d03f",
+    "semantic_hash": "2e98f612ac77d7ebcbd2df2da350d03f"
+  },
+  "tests/channels/test_twilio_sms.py": {
+    "mtime": 1782184604.562293,
+    "ast_hash": "0eec5eb169420051b36d2c81af5a47b9",
+    "semantic_hash": "0eec5eb169420051b36d2c81af5a47b9"
+  },
+  "tests/channels/test_twilio_voice.py": {
+    "mtime": 1782184604.5623744,
+    "ast_hash": "ab7de50aca2ebdf8641d4f9796d5824f",
+    "semantic_hash": "ab7de50aca2ebdf8641d4f9796d5824f"
+  },
+  "tests/channels/test_webhook.py": {
+    "mtime": 1782184604.5624526,
+    "ast_hash": "afe171c8c391ea3ecd4c55cf2b9e53c7",
+    "semantic_hash": "afe171c8c391ea3ecd4c55cf2b9e53c7"
+  },
+  "tests/channels/test_webui.py": {
+    "mtime": 1782184604.5625253,
+    "ast_hash": "09b9037c00ee15f6dacbefe980e1e2ed",
+    "semantic_hash": "09b9037c00ee15f6dacbefe980e1e2ed"
+  },
+  "tests/channels/test_whatsapp.py": {
+    "mtime": 1782184604.5626264,
+    "ast_hash": "31c6c5ec7b6a2ad4a8946204064a8779",
+    "semantic_hash": "31c6c5ec7b6a2ad4a8946204064a8779"
+  },
+  "tests/conftest.py": {
+    "mtime": 1782184604.562718,
+    "ast_hash": "ed3dbad6e322b3be0af9fa7c46dae098",
+    "semantic_hash": "ed3dbad6e322b3be0af9fa7c46dae098"
+  },
+  "tests/test_allowlists_trust.py": {
+    "mtime": 1782184604.5628078,
+    "ast_hash": "7aba8bd3cc10ddffc22260bd456fd108",
+    "semantic_hash": "7aba8bd3cc10ddffc22260bd456fd108"
+  },
+  "tests/test_audit_log.py": {
+    "mtime": 1782184604.5628915,
+    "ast_hash": "503987a13dc4e9cb65eeaab729149f27",
+    "semantic_hash": "503987a13dc4e9cb65eeaab729149f27"
+  },
+  "tests/test_control_plane.py": {
+    "mtime": 1782184604.56297,
+    "ast_hash": "285f2f10f7f535f4cdab700f5b9572a2",
+    "semantic_hash": "285f2f10f7f535f4cdab700f5b9572a2"
+  },
+  "tests/test_envelope.py": {
+    "mtime": 1782184604.563063,
+    "ast_hash": "b09b6d08f4b67ac9fe563ee75a781a68",
+    "semantic_hash": "b09b6d08f4b67ac9fe563ee75a781a68"
+  },
+  "tests/test_pairing.py": {
+    "mtime": 1782184604.5631444,
+    "ast_hash": "0e60f4f8471073a2ba09d26589f09952",
+    "semantic_hash": "0e60f4f8471073a2ba09d26589f09952"
+  },
+  "tests/test_policy_engine.py": {
+    "mtime": 1782184604.56322,
+    "ast_hash": "d68cd393d0e297e458aeab269f71bedf",
+    "semantic_hash": "d68cd393d0e297e458aeab269f71bedf"
+  },
+  "tests/test_rate_limits.py": {
+    "mtime": 1782184604.5633073,
+    "ast_hash": "288ecb7b30f28df8b2825356f54f9731",
+    "semantic_hash": "288ecb7b30f28df8b2825356f54f9731"
+  },
+  "tests/test_registry.py": {
+    "mtime": 1782184604.5633988,
+    "ast_hash": "19c50b2664010ae675c803f79d6de8f6",
+    "semantic_hash": "19c50b2664010ae675c803f79d6de8f6"
+  },
+  "tests/test_transcribe_route.py": {
+    "mtime": 1782184604.5634916,
+    "ast_hash": "a62452506c82bdd742adc1b3e6fdc52d",
+    "semantic_hash": "a62452506c82bdd742adc1b3e6fdc52d"
+  },
+  "tests/test_v9_compat.py": {
+    "mtime": 1782184604.5635624,
+    "ast_hash": "74ba89e187bcb9581f032bd0ee32db99",
+    "semantic_hash": "74ba89e187bcb9581f032bd0ee32db99"
+  },
+  "tests/test_voice_routing.py": {
+    "mtime": 1782184604.563639,
+    "ast_hash": "d217c7a1dca5bc106405ee8baf2a0254",
+    "semantic_hash": "d217c7a1dca5bc106405ee8baf2a0254"
+  },
+  "tests/voice/__init__.py": {
+    "mtime": 1782184604.5637221,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/voice/conftest.py": {
+    "mtime": 1782184604.5638406,
+    "ast_hash": "aa37c5966ee99b4a0f2a53329b03cd0e",
+    "semantic_hash": "aa37c5966ee99b4a0f2a53329b03cd0e"
+  },
+  "tests/voice/stt/__init__.py": {
+    "mtime": 1782184604.5639246,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/voice/stt/mocks/__init__.py": {
+    "mtime": 1782184604.5640182,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/voice/stt/mocks/gemini_live_mock.py": {
+    "mtime": 1782184604.564132,
+    "ast_hash": "9ed74507dff452e6cc7974f8d7d4e313",
+    "semantic_hash": "9ed74507dff452e6cc7974f8d7d4e313"
+  },
+  "tests/voice/stt/mocks/groq_whisper_mock.py": {
+    "mtime": 1782184604.5642278,
+    "ast_hash": "93cb6a3712469bfb2df29f9d99fee07c",
+    "semantic_hash": "93cb6a3712469bfb2df29f9d99fee07c"
+  },
+  "tests/voice/stt/mocks/whisper_cpp_mock.py": {
+    "mtime": 1782184604.5643232,
+    "ast_hash": "1d2bdd41879505185c866cd3bcd0c5ac",
+    "semantic_hash": "1d2bdd41879505185c866cd3bcd0c5ac"
+  },
+  "tests/voice/stt/test_gemini_live.py": {
+    "mtime": 1782184604.5644214,
+    "ast_hash": "0d7994bbf04a4f0d6073217afeae84b0",
+    "semantic_hash": "0d7994bbf04a4f0d6073217afeae84b0"
+  },
+  "tests/voice/stt/test_groq_whisper.py": {
+    "mtime": 1782184604.5645208,
+    "ast_hash": "a7c7a3b502204e130f16df34bd0b453a",
+    "semantic_hash": "a7c7a3b502204e130f16df34bd0b453a"
+  },
+  "tests/voice/stt/test_whisper_cpp.py": {
+    "mtime": 1782184604.5646179,
+    "ast_hash": "2f7ebe65823d59704ed1d38ca68050cc",
+    "semantic_hash": "2f7ebe65823d59704ed1d38ca68050cc"
+  },
+  "tests/voice/tts/__init__.py": {
+    "mtime": 1782184604.564699,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/voice/tts/mocks/__init__.py": {
+    "mtime": 1782184604.5648186,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/voice/tts/mocks/cartesia_mock.py": {
+    "mtime": 1782184604.5649323,
+    "ast_hash": "13af137c77afe565afed4ccdc98360fe",
+    "semantic_hash": "13af137c77afe565afed4ccdc98360fe"
+  },
+  "tests/voice/tts/mocks/elevenlabs_mock.py": {
+    "mtime": 1782184604.5650232,
+    "ast_hash": "78558ce6274ec674360e265854edd36b",
+    "semantic_hash": "78558ce6274ec674360e265854edd36b"
+  },
+  "tests/voice/tts/mocks/gemini_live_mock.py": {
+    "mtime": 1782184604.5651226,
+    "ast_hash": "f4134ce42f319899c3bf57c4f563e104",
+    "semantic_hash": "f4134ce42f319899c3bf57c4f563e104"
+  },
+  "tests/voice/tts/mocks/kokoro_mock.py": {
+    "mtime": 1782184604.5652115,
+    "ast_hash": "69859f25cb113747613b135b88e4375c",
+    "semantic_hash": "69859f25cb113747613b135b88e4375c"
+  },
+  "tests/voice/tts/mocks/system_fallback_mock.py": {
+    "mtime": 1782184604.5652988,
+    "ast_hash": "783064a95740d46064b101a5652c4962",
+    "semantic_hash": "783064a95740d46064b101a5652c4962"
+  },
+  "tests/voice/tts/test_cartesia.py": {
+    "mtime": 1782184604.5654433,
+    "ast_hash": "186df3365f9a826fcd0804d9d4d48cbb",
+    "semantic_hash": "186df3365f9a826fcd0804d9d4d48cbb"
+  },
+  "tests/voice/tts/test_elevenlabs.py": {
+    "mtime": 1782184604.5655863,
+    "ast_hash": "7716e5cb9efe729a3f8f395b479b989b",
+    "semantic_hash": "7716e5cb9efe729a3f8f395b479b989b"
+  },
+  "tests/voice/tts/test_gemini_live.py": {
+    "mtime": 1782184604.565697,
+    "ast_hash": "7d47af75a2d5c584ef5878b5311c53ee",
+    "semantic_hash": "7d47af75a2d5c584ef5878b5311c53ee"
+  },
+  "tests/voice/tts/test_kokoro.py": {
+    "mtime": 1782184604.5658169,
+    "ast_hash": "dde96e31121dd56e6724ee2c577fe7ee",
+    "semantic_hash": "dde96e31121dd56e6724ee2c577fe7ee"
+  },
+  "tests/voice/tts/test_system_fallback.py": {
+    "mtime": 1782184604.565943,
+    "ast_hash": "ea795f2d120c7fdb1e695d6c8872bd03",
+    "semantic_hash": "ea795f2d120c7fdb1e695d6c8872bd03"
+  }
+}
