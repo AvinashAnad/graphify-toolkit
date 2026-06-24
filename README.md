@@ -4,7 +4,8 @@ bash graphify_install.sh
 source ~/.zshrc
 
 # On any repo you want to explore — drop in explore script and run
-cd <your-repo>
+
+cd "repo"
 
 bash graphify_explore.sh                   # default: qwen3.6:35b-mlx
 
